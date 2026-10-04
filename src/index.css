@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Figtree", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-forest: #12201A;
+  --color-forest-2: #1B2D25;
+  --color-forest-dark: #0B1410;
+  --color-forest-line: #34483E;
+  
+  --color-paper: #F6F2E8;
+  --color-paper-2: #ECE5D3;
+  --color-paper-card: #FDFBF7;
+  --color-ink: #1C1B16;
+  --color-soft: #55503F;
+  --color-rule: #D5CBB0;
+  
+  --color-brass: #B8863F;
+  --color-brass-light: #E0C080;
+  --color-brass-dark: #7C5A2A;
+  --color-oxide: #8A3F35;
+}
+
+:root {
+  --forest: #12201A;
+  --forest-2: #1B2D25;
+  --line-d: #34483E;
+  --paper: #F6F2E8;
+  --paper-2: #ECE5D3;
+  --ink: #1C1B16;
+  --soft: #55503F;
+  --rule: #D5CBB0;
+  --brass: #B8863F;
+  --brass-l: #E0C080;
+  --brass-d: #7C5A2A;
+  --oxide: #8A3F35;
+}
+
+body {
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  margin: 0;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, .font-serif {
+  font-family: var(--font-serif);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+

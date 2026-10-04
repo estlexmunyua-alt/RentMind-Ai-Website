@@ -1,0 +1,6 @@
+{
+  "name": "RentalMind AI — Sovereign Trust & Evidence Protocol",
+  "description": "Tenant-controlled trust and evidence layer for Africa's informal rental economy, elevating M-Pesa, split payments, and tenancy records across provenance tiers A through D.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
